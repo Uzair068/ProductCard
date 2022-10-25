@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 16px;
+    margin: 15px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    transition: 700ms;
+}
+.img_1{
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 8px 25px;
+    background-color: rgb(244, 87, 67);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.card:hover{
+ background-color: rgba(192, 192, 192, 0.783);
+ /* padding: 20px; */
+ 
+ rotate: 360deg;
+ 
+ 
+
+
+}
